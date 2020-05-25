@@ -13,4 +13,3 @@ Add features of your own and submit
 At the moment we have no live demo
 ## Authors
 * Alvin Chweya
-Enjoy Coding :)
