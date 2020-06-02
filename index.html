@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitter</title>
+  
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="https://abs.twimg.com/favicons/twitter.ico" type="image/ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+   <!-- Fixed top navbar -->
+<nav class="navbar navbar-toggleable-md fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse container">
+    <!-- Navbar navigation links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="octicon octicon-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="octicon octicon-zap"></i> Moments</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="octicon octicon-bell"></i> Notifications</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="octicon octicon-inbox"></i> Messages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-phone-square" aria-hidden="true"></i> Phone View</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-code" aria-hidden="true"></i> Source Code</a>
+      </li>
+    </ul>
+    <!-- END: Navbar navigation links -->
+    <!-- Navbar Search form -->
+    <form class="navbar-form" role="search">
+      <div class="input-group">
+        <input type="text" class="form-control input-search" placeholder="Search Twitter" name="srch-term" id="srch-term">
+        <div class="input-group-btn">
+          <button class="btn btn-default btn-search" type="submit"><i class="octicon octicon-search navbar-search-icon"></i></button>
+        </div>
+      </div>
+    </form>
+    <!-- END: Navbar Search form -->
+    <!-- Navbar User menu -->
+    <div class="dropdown navbar-user-dropdown">
+      <button class="btn btn-secondary dropdown-toggle btn-circle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="Login/login.html">Add Existing account</a>
+        <a class="dropdown-item" href="Login/login.html">Logout @alvinmcxw2</a>
+      </div>
+    </div>
+    <!-- END: Navbar User menu -->    
+    <!-- END: Navbar User menu -->
+    <!-- Navbar Tweet button -->
+    <button class="btn btn-search-bar">Tweet</button>
+  </div>
+</nav>
+  <!-- END: Fixed top navbar -->
+<div class="main-container">
+  <!-- Profile background large image -->
+  <div class="row profile-background">
+    <div class="container">
+	  <!-- User main avatar -->
+      <div class="avatar-container">
+        <div class="avatar">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</nav>
+  <nav class="navbar profile-stats">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col-6">
+          <ul>
+            <li class="profile-stats-item-active">
+              <a>
+                <span class="profile-stats-item profile-stats-item-label">Tweets</span>
+                <span class="profile-stats-item profile-stats-item-number">37.8M</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span class="profile-stats-item profile-stats-item-label">Following</span>
+                <span class="profile-stats-item profile-stats-item-number">1K</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span class="profile-stats-item profile-stats-item-label">Followers</span>
+                <span class="profile-stats-item profile-stats-item-number">1T</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span class="profile-stats-item profile-stats-item-label">Likes</span>
+                <span class="profile-stats-item profile-stats-item-number">489.3B</span>
+              
+              </a>
+            </li>
+            <li>
+            <a>
+                      <button class="btn btn-follow">Follow</button>
+            </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container main-content">
+    <div class="row">
+      <div class="col profile-col">
+        <!-- Left column -->
+        <div class="profile-header">
+          <!-- Header information -->
+          <h3 class="profile-fullname"><a>Alvin Chweya<a></h3>
+          <h2 class="profile-element"><a>&commat;alvinmcxw2</a></h2>
+          <a class="profile-element profile-website" hrerf=""><i class="octicon octicon-link"></i>&nbsp;alvinchweyapro.com</a>
+          <a class="profile-element profile-website" hrerf=""><i class="octicon octicon-location"></i>&nbsp;Kenya, Nairobi, Syokimau</a>
+          <h2 class="profile-element"><i class="octicon octicon-calendar"></i>&nbsp;Joined November 2006</h2>
+          <button class="btn btn-search-bar tweet-to-btn">Tweet to Alvin Chweya</button>
+          <a class="profile-element profile-website" hrerf=""><i class="octicon octicon-file-media"></i>1T Photos and videos</a>
+          <div class="pic-grid">
+            <!-- Image grid -->
+            <div class="row">
+              <div class="col pic-col"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Roblox_logo.png" height="73px" class=""></div>
+              <div class="col pic-col"><img src="https://images.techhive.com/images/article/2014/08/minecraft_logo-100371548-large.jpg" height="73px" class=""></div>
+              <div class="col pic-col"><img src="https://yt3.ggpht.com/a/AATXAJxY8yvKiV5vw9PinWcX7e49u9iy90NITzJvGg=s900-c-k-c0xffffffff-no-rj-mo" height="73px" class=""></div>
+            </div>
+            <!-- End: row -->
+            <div class="row">
+              <div class="col pic-col"><img src="https://images.discordapp.net/avatars/579327336395309062/5ef6889636773f5ac8127a5d0e712607.png?size=512" height="73px" class=""></div>
+              <div class="col pic-col"><img src="https://pbs.twimg.com/profile_images/1081742196901113856/EJNox0DD_400x400.jpg" height="73px" class=""></div>
+              <div class="col pic-col"><img src="https://yt3.ggpht.com/a/AATXAJx9YErte8HcbIgQCWb0Psz_AYBvDNr8qXxgdw=s100-c-k-c0xffffffff-no-rj-mo" height="73px" class=""></div>
+            </div>
+            <!-- End: row -->
+          </div>
+          <!-- End: image grid -->
+        </div>
+      </div>
+      <!-- End; Left column -->
+      <!-- Center content column -->
+      <div class="col-6">
+        <ol class="tweet-list">
+          <li class="tweet-card">
+            <div class="tweet-content">
+              <div class="tweet-header">
+                <span class="fullname">
+                  <strong>Alvin Chweya</strong>
+                </span>
+                <span class="username">@alvinmcxw2</span>
+                <span class="tweet-time">- Sep 9</span>
+              </div>
+              <a>
+                <img class="tweet-card-avatar" src="Https://www.haribo.com/assets/images/bear-behind.svg" alt="Haribo">
+              </a>
+              <div class="tweet-text">
+                <p>Replying to <a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>@</s><b>darellkipch</b></a></p>
+                <p class="" lang="es" data-aria-label-part="0">Hey Darell, I use<b>"My Phone: Android, My Desktop:Windows , My Laptop: Ubuntu"</b><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>#</s><b>alvinchweya</b></a> <a href="" class="twitter-hashtag"><s>#</s><b>2020posts</b></a>
+                  <a href="" class="twitter-hashtag" dir="ltr"></a>
+                </p>
+              </div>
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                      <strong>Alvin Chweya</strong>
+                    </span>
+                    <span class="username">@alvinmcxw2</span>
+                    <span class="tweet-time">- Sep 9</span>
+                  </div>
+                  <a>
+                    <img class="tweet-card-avatar" src="Https://www.haribo.com/assets/images/bear-behind.svg" alt="Haribo">
+                  </a>
+                  <div class="tweet-text">
+                    <p>Replying to <a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>@</s><b>kingprincebosire1</b></a></p>
+                    <p class="" lang="es" data-aria-label-part="0"><b>No You "Idiot" Prince- "Am I?"</b>. You cant <b>*kill*</b> me&nbsp;<a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>#</s><b>alvinchweya</b></a> <a href="" class="twitter-hashtag"><s>#</s><b>2020posts</b></a>
+                      <a href="" class="twitter-hashtag" dir="ltr"></a>
+                    </p>
+                  </div>
+              <div class="tweet-footer">
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-comment" aria-hidden="true"></i><span> 4000</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-sync" aria-hidden="true"></i><span> 1M</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-heart" aria-hidden="true"></i><span> 1B</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-mail" aria-hidden="true"></i><span> 500</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="tweet-card">
+            <div class="tweet-content">
+              <div class="tweet-header">
+                <span class="fullname">
+                  <strong>Alvin Chweya</strong>
+                </span>
+                <span class="username">@alvinmcxw2</span>
+                <span class="tweet-time">- Sep 10</span>
+              </div>
+              <a>
+                <img class="tweet-card-avatar" src="Https://www.haribo.com/assets/images/bear-behind.svg" alt="Haribo">
+              </a>
+              <div class="tweet-text">
+                <p>Replying to <a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>@</s><b>katekemmy157</b></a></p>
+                <p class="" lang="es" data-aria-label-part="0"><b>Tumia Whatsapp!</b>&nbsp;<a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>#</s><b>alvinchweya</b></a> <a href="" class="twitter-hashtag"><s>#</s><b>2020posts</b></a>
+                  <a href="" class="twitter-hashtag" dir="ltr"></a>
+                </p>
+              </div>
+          <div class="tweet-footer">
+            <a class="tweet-footer-btn">
+              <i class="octicon octicon-comment" aria-hidden="true"></i><span> 4000</span>
+            </a>
+            <a class="tweet-footer-btn">
+              <i class="octicon octicon-sync" aria-hidden="true"></i><span> 1M</span>
+            </a>
+            <a class="tweet-footer-btn">
+              <i class="octicon octicon-heart" aria-hidden="true"></i><span> 1B</span>
+            </a>
+            <a class="tweet-footer-btn">
+              <i class="octicon octicon-mail" aria-hidden="true"></i><span> 500</span>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="tweet-card">
+        <div class="tweet-content">
+          <div class="tweet-header">
+            <span class="fullname">
+              <strong>Alvin Chweya</strong>
+            </span>
+            <span class="username">@alvinmcxw2</span>
+            <span class="tweet-time">- Sep 7</span>
+          </div>
+          <a>
+            <img class="tweet-card-avatar" src="Https://www.haribo.com/assets/images/bear-behind.svg" alt="Haribo"><p>
+			Replying to <a href="" class="twitter-hashtag"><s>@</s><b>ClintonOkerio56</b></a></p>
+            
+          &nbsp;</a><div class="tweet-text">
+            <p class="" lang="es" data-aria-label-part="0"><b>You Want Pics?</b>&nbsp;<a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>#</s><b>alvinchweya</b></a> <a href="" class="twitter-hashtag"><s>#</s><b>2020posts</b></a>&nbsp;
+
+              <a href="" class="twitter-hashtag" dir="ltr" ></a>
+                </p>
+				<p class="" lang="es" data-aria-label-part="0">
+				<img alt="" class="auto-style4" height="1000" src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/b/b0/Spider-Man_FFH_Profile.jpg/revision/latest?cb=20190917181733" width="466"></p>
+          </div>
+      <div class="tweet-footer">
+        <a class="tweet-footer-btn">
+          <i class="octicon octicon-comment" aria-hidden="true"></i><span> 4000</span>
+        </a>
+        <a class="tweet-footer-btn">
+          <i class="octicon octicon-sync" aria-hidden="true"></i><span> 1M</span>
+        </a>
+        <a class="tweet-footer-btn">
+          <i class="octicon octicon-heart" aria-hidden="true"></i><span> 1B</span>
+        </a>
+        <a class="tweet-footer-btn">
+          <i class="octicon octicon-mail" aria-hidden="true"></i><span> 500</span>
+        </a>
+      </div>
+    </div>
+  </li>
+          <li class="tweet-card">
+            <div class="tweet-content">
+              <div class="tweet-header">
+                <span class="fullname">
+                  <strong>Alvin Chweya</strong>
+                </span>
+                <span class="username">@alvinmcxw2</span>
+                <span class="tweet-time">- May 15</span>
+              </div>
+              <a>
+                <img class="tweet-card-avatar" src="Https://www.haribo.com/assets/images/bear-behind.svg" alt="Haribo">
+              </a>
+              <div class="tweet-text">
+                <p class="" lang="es" data-aria-label-part="0"><a class="wan" href="https://www.youtube.com/watch?v=68fe1tzkLWQ" target="_blank">The WAN Show is live. <b>Watch it, Please</b></a>&nbsp;<a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>#</s><b>thewanshowlive</b></a>&nbsp;<a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>#</s><b>alvinchweya</b></a>&nbsp;<a href="" class="twitter-hashtag"><s>#</s><b>2020posts</b></a>&nbsp;
+                  <a href="" class="twitter-hashtag" dir="ltr"></a>
+                </p>
+              </div>
+              <div class="tweet-footer">
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-comment" aria-hidden="true"></i><span> 4000</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-sync" aria-hidden="true"></i><span> 1M</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-heart" aria-hidden="true"></i><span> 1B</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-mail" aria-hidden="true"></i><span> 500</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="tweet-card">
+            <div class="tweet-content">
+              <div class="tweet-header">
+                <span class="fullname">
+                  <strong>Alvin Chweya</strong>
+                </span>
+                <span class="username">@alvinmcxw2</span>
+                <span class="tweet-time">- Jun 17</span>
+                
+              </div>
+              <a>
+                <img class="tweet-card-avatar" src="Https://www.haribo.com/assets/images/bear-behind.svg" alt="Haribo">
+              </a>
+              <div class="tweet-text">
+                <p class="" lang="es" data-aria-label-part="0"><a href="" class="twitter-user"><a href="" class="twitter-user"><a href="" class="twitter-hashtag"><s>@</s>darellkipch</a></b> Your TikTok Says <b>"Am Darell kipchumba. I love playing football, making videos and computer games."</b>what? you only play&nbsp;<b>ROBLOX</b> bruh?<a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>#</s><b>alvinchweya</b></a> <a href="" class="twitter-hashtag"><s>#</s><b>2020posts</b></a>
+                  <a href="" class="twitter-hashtag" dir="ltr"></a>
+                </p>
+              </div>
+              <div class="tweet-footer">
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-comment" aria-hidden="true"></i><span> 4000</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-sync" aria-hidden="true"></i><span> 1M</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-heart" aria-hidden="true"></i><span> 1B</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-mail" aria-hidden="true"></i><span> 500</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="tweet-card">
+            <div class="tweet-content">
+              <div class="tweet-header">
+                <span class="fullname">
+                  <strong>Alvin Chweya</strong>
+                </span>
+                <span class="username">@alvinmcxw2</span>
+                <span class="tweet-time">- May 16</span>
+              </div>
+              <a>
+                <img class="tweet-card-avatar" src="Https://www.haribo.com/assets/images/bear-behind.svg" alt="Haribo">
+              </a>
+              <div class="tweet-text">
+                <p class="" lang="es" data-aria-label-part="0">he ya'll its 12am&nbsp;<a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><a href="" class="twitter-hashtag"><s>#</s><b>alvinchweya</b></a> <a href="" class="twitter-hashtag"><s>#</s><b>2020posts</b></a>
+                  <a href="" class="twitter-hashtag" dir="ltr"></a>
+                </p>
+              </div>
+              <div class="tweet-footer">
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-comment" aria-hidden="true"></i><span> 4000</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-sync" aria-hidden="true"></i><span> 1M</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-heart" aria-hidden="true"></i><span> 1B</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-mail" aria-hidden="true"></i><span> 500</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="tweet-card">
+            <div class="tweet-content">
+              <div class="tweet-header">
+                <span class="fullname">
+                  <strong>Alvin Chweya</strong>
+                </span>
+                <span class="username">@alvinmcxw2</span>
+                <span class="tweet-time">- Jan 1</span>
+              </div>
+              <a>
+                <img class="tweet-card-avatar" src="Https://www.haribo.com/assets/images/bear-behind.svg" alt="Haribo">
+              </a>
+              <div class="tweet-text">
+                <p class="" lang="es" data-aria-label-part="0"> new 2020 new me <a href="" class="twitter-hashtag"><s>#</s><b>welcometo2020</b></a> <a href="" class="twitter-hashtag"><s>#</s><b>2020resulation</b></a>
+                  <a href="" class="twitter-hashtag" dir="ltr"></a>
+                </p>
+              </div>
+              <div class="tweet-footer">
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-comment" aria-hidden="true"></i><span> 4000</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-sync" aria-hidden="true"></i><span>1M</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-heart" aria-hidden="true"></i><span> 1B</span>
+                </a>
+                <a class="tweet-footer-btn">
+                  <i class="octicon octicon-mail" aria-hidden="true"></i><span> 500</span>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ol>
+        <!-- End: tweet list -->
+      </div>
+      <!-- End: Center content column -->
+      <div class="col right-col">
+        <div class="content-panel">
+          <div class="panel-header">
+            <h4>Who to follow</h4><small><a href="">Refresh</a></small><small><a href="">View all</a></small>
+          </div>
+          <!-- Who to Follow panel -->
+          <div class="panel-content">
+            <!--Follow list -->
+            <ol class="tweet-list">
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="https://p16-va-default.akamaized.net/img/musically-maliva-obj/1663478935511046~c5_720x720.jpeg" alt="Darell's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Darell Kipchumba</strong>
+                </span>
+                    <span class="username">@darellkipch6</span>
+                  </div>
+
+                          <button class="btn btn-follow">Follow</button>
+                </div>
+              </li>
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="Images/Jayden.png" alt="Jayden's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Jayden Gathagu</strong>
+                </span>
+                    <span class="username">@jaydeng</span>
+                  </div>
+
+                          <button class="btn btn-follow">Follow</button>
+                </div>
+              </li>
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="Images/Eli.png" alt="Eli's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Eli G.</strong>
+                </span>
+                    <span class="username">@eligathiga</span>
+                  </div>
+
+                          <button class="btn btn-follow">Follow</button>
+                </div>
+              </li>
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJz0u2xUQTmNcVV3xQa4Ulu_97Hj6jDQTzb2HA=s100-c-k-c0xffffffff-no-rj-mo" alt="Sayalel's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Sayalel Owesi</strong>
+                </span>
+                    <span class="username">@circonfl3x</span>
+                  </div>
+
+                          <button class="btn btn-follow">Follow</button>
+                </div>
+              </li>
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg" alt="Lula's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong> Lula Igancio</strong>
+                </span>
+                    <span class="username">@iganciolula21</span>
+                  </div>
+
+                          <button class="btn btn-follow">Follow</button>
+                </div>
+              </li>
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg" alt="Anisa's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Anisa</strong>
+                </span>
+                    <span class="username">@anisa667</span>
+                  </div>
+
+                          <button class="btn btn-follow">Follow</button>
+                </div>
+              </li>
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJz5q0dXs11wfwYuvcuDlRa_-5t657qpxtlp2Q=s100-c-k-c0xffffffff-no-rj-mo" alt="Prince's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Prince Bosire</strong>
+                </span>
+                    <span class="username">@kingprincebosire1</span>
+                  </div>
+
+                          <button class="btn btn-follow">Follow</button>
+                </div>
+              </li>
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="https://p16-va-default.akamaized.net/img/musically-maliva-obj/1664390539379718~c5_720x720.jpeg" alt="Branson's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Branson</strong>
+                </span>
+                    <span class="username">@kidstar_bransom123</span>
+                  </div>
+
+                          <button class="btn btn-follow">Follow</button>
+                </div>
+              </li>
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="Images/Kate.png" alt="Kate's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Kate&nbsp;&#10084;</strong>
+                </span>
+                    <span class="username">@katekemmy157</span>
+                  </div>
+
+                          <button class="btn btn-follow">Follow</button>
+                </div>
+              </li> 
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="Images/Clinton.png" alt="Clinton's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Clinton Okerio<sup style="font-size: x-small;">tio</sup>&nbsp;&#10084;</strong>
+                </span>
+                    <span class="username">@ClintonOkerio56</span>
+                  </div>
+                  <li class="tweet-card">
+                    <div class="tweet-content">
+                      <img class="tweet-card-avatar" src="https://vignette.wikia.nocookie.net/youtube/images/e/e5/AlbertsStuff.jpg/revision/latest/top-crop/width/360/height/360?cb=20180829185743" alt="Albert's Profile">
+                      <div class="tweet-header">
+                        <span class="fullname">
+                      <strong>Albert Aretz</strong>
+                    </span>
+                        <span class="username">@albertsstuff</span>
+                      </div>
+                          <button class="btn btn-follow">Follow</button>
+                </div>
+              </li>
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJzgwB7UqHVFl9ZalX45xwLKdwNFIIhQ4Eop3A=s100-c-k-c0xffffffff-no-rj-mo" alt="Kaden's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Kaden Fumblebottom</strong>
+                </span>
+                    <span class="username">@JokerKid</span>
+                  </div>
+                      <button class="btn btn-follow">Follow</button>
+            </div>
+            </li>
+            <li class="tweet-card">
+              <div class="tweet-content">
+                <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJyAvEsqx0FFWfMX7naD_u82fN4hNzxlHfF5WA=s100-c-k-c0xffffffff-no-rj-mo" alt="Temprist's Profile">
+                <div class="tweet-header">
+                  <span class="fullname">
+                <strong></strong>
+              </span>
+              <strong>Temprist</strong>
+                  <span class="username">@Temprist</span>
+                </div>
+                    <button class="btn btn-follow">Follow</button>
+          </div>
+          </li>   
+              <li class="tweet-card">
+                <div class="tweet-content">
+                  <img class="tweet-card-avatar" src="https://pbs.twimg.com/profile_images/1131887328107143168/Mu67P1Tw_400x400.png" alt="Arun's Profile">
+                  <div class="tweet-header">
+                    <span class="fullname">
+                  <strong>Arun Maini</strong>
+                </span>
+                    <span class="username">@mrwhosetheboss</span>
+                  </div>
+                      <button class="btn btn-follow">Follow</button>
+            </div>
+          </li> 
+          <li class="tweet-card">
+            <div class="tweet-content">
+              <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJwIHOTspfmIL24Bcr_aIor6CI-Q0zifWQ7vIA=s100-c-k-c0xffffffff-no-rj-mo" alt="Marques's Profile">
+              <div class="tweet-header">
+                <span class="fullname">
+              <strong>Marques Brownlee</strong>
+            </span>
+                <span class="username">@MKBHD</span>
+              </div>
+              <button class="btn btn-follow">Follow</button>
+        </div>
+      </li> 
+      <li class="tweet-card">
+        <div class="tweet-content">
+          <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJxYxR1ZvnXQAJ2dUHmGXDJfauYwiOKxBCtiZw=s100-c-k-c0xffffffff-no-rj-mo" alt="Dave's Profile">
+          <div class="tweet-header">
+            <span class="fullname">
+          <strong>Dave Lee</strong>
+        </span>
+            <span class="username">@dave2D</span>
+          </div>
+          <button class="btn btn-follow">Follow</button>
+    </div>
+  </li> 
+          <li class="tweet-card">
+            <div class="tweet-content">
+              <img class="tweet-card-avatar" src="https://images.discordapp.net/avatars/579327336395309062/5ef6889636773f5ac8127a5d0e712607.png?size=512" alt="Zack's Profile">
+              <div class="tweet-header">
+                <span class="fullname">
+              <strong>Zack</strong>
+            </span>
+                <span class="username">@skeppy</span>
+              </div>
+                  <button class="btn btn-follow">Follow</button>
+        </div>
+      </li> 
+      <li class="tweet-card">
+        <div class="tweet-content">
+          <img class="tweet-card-avatar" src="https://pbs.twimg.com/profile_images/1081742196901113856/EJNox0DD_400x400.jpg" alt="Bad's Profile">
+          <div class="tweet-header">
+            <span class="fullname">
+          <strong>BadBoyHalo</strong>
+        </span>
+            <span class="username">@badboyhalo</span>
+          </div>
+          <button class="btn btn-follow">Follow</button>
+    </div>
+  </li> 
+  <li class="tweet-card">
+  <div class="tweet-content">
+    <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJyZOryOWniLH0NuJKZXHvbjsQtaRZlwp6wwKQ=s100-c-k-c0xffffffff-no-rj-mo" alt="Joma's Profile">
+    <div class="tweet-header">
+      <span class="fullname">
+    <strong>Joma Senpai</strong>
+  </span>
+      <span class="username">@jomasenpaitechyt</span>
+    </div>
+<button class="btn btn-follow">Follow</button>
+</div>
+</li> 
+<li class="tweet-card">
+<div class="tweet-content">
+  <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJzGUJdH8PJ5d34Uk6CYZmAMWtam2Cpk6tU_Qw=s100-c-k-c0xffffffff-no-rj-mo" alt="Linus's Profile">
+  <div class="tweet-header">
+    <span class="fullname">
+  <strong>Linus Tech Tips</strong>
+</span>
+    <span class="username">@linustech</span>
+  </div>
+<button class="btn btn-follow">Follow</button>
+</div>
+</li>
+  <li class="tweet-card">
+    <div class="tweet-content">
+      <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJzLtsoD4cvTFbLfKRcPGGI_sYg86OTH37kY=s100-c-k-c0xffffffff-no-rj-mo" alt="Linus's Profile">
+      <div class="tweet-header">
+        <span class="fullname">
+      <strong>Linus Cat Tips</strong>
+    </span>
+        <span class="username">@linuscattips</span>
+      </div>
+      <button class="btn btn-follow">Follow</button>
+    </div>
+    </li>
+    <li class="tweet-card">
+      <div class="tweet-content">
+        <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJzHP0eNytlvGwXzo9VlNZr8GJTpj4yWIilPgw=s100-c-k-c0xffffffff-no-rj-mo" alt="Linus's Profile">
+        <div class="tweet-header">
+          <span class="fullname">
+        <strong>Techquickie</strong>
+      </span>
+          <span class="username">@techquickie</span>
+        </div>
+        <button class="btn btn-follow">Follow</button>
+      </div>
+      </li>
+      <li class="tweet-card">
+        <div class="tweet-content">
+          <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJyrdYnclpRz2p07piZnMxpakfYYBjr201tZbA=s100-c-k-c0xffffffff-no-rj-mo" alt="Linus's Profile">
+          <div class="tweet-header">
+            <span class="fullname">
+          <strong>Channel Super Fun</strong>
+        </span>
+            <span class="username">@channelsuperfun</span>
+          </div>
+          <button class="btn btn-follow">Follow</button>
+        </div>
+        </li>
+        <li class="tweet-card">
+          <div class="tweet-content">
+            <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJwp5DZirF4VYxTEHNI7YLK0LWKy48r3KWywXg=s100-c-k-c0xffffffff-no-rj-mo" alt="Linus's Profile">
+            <div class="tweet-header">
+              <span class="fullname">
+            <strong>TechLinked</strong>
+          </span>
+              <span class="username">@techlinked</span>
+            </div>
+                  <button class="btn btn-follow">Follow</button>
+          </div>
+          </li>
+          <li class="tweet-card">
+            <div class="tweet-content">
+              <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJzanVgvwbR-xwHghvGcVZXUeMqQROyr-IT4lA=s100-c-k-c0xffffffff-no-rj-mo" alt="Linus's Profile">
+              <div class="tweet-header">
+                <span class="fullname">
+              <strong>LMG Clips</strong>
+            </span>
+                <span class="username">@lmgclips</span>
+              </div>
+                    <button class="btn btn-follow">Follow</button>
+            </div>
+            </li>
+            <li class="tweet-card">
+              <div class="tweet-content">
+                <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJxbjco4V9I_tli6kzxYdsHTyuyhVKlHqgvgkQ=s100-c-k-c0xffffffff-no-rj-mo" alt="Linus's Profile">
+                <div class="tweet-header">
+                  <span class="fullname">
+                <strong>ShortCircuit</strong>
+              </span>
+                  <span class="username">@shortcircuit</span>
+                </div>
+                      <button class="btn btn-follow">Follow</button>
+              </div>
+              </li>
+    <li class="tweet-card">
+      <div class="tweet-content">
+        <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJwh0mwIbFditVwC20g4U-I4r487eQzPtwYpfg=s100-c-k-c0xffffffff-no-rj-mo" alt="Linus's Profile">
+        <div class="tweet-header">
+          <span class="fullname">
+        <strong>NCIX Tech Tips</strong>
+      </span>
+          <span class="username">@ncixtech</span>
+        </div>
+        <button class="btn btn-follow">Follow</button>
+      </div>
+      </li> 
+      <li class="tweet-card">
+        <div class="tweet-content">
+          <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJzJp-fIcvG4d1dz5OzPSmuZOBAb5-6wXem_QQ=s100-c-k-c0xffffffff-no-rj-mo" alt="Linus's Profile">
+          <div class="tweet-header">
+            <span class="fullname">
+          <strong>NCIXtv</strong>
+        </span>
+            <span class="username">@ncixcom</span>
+          </div>
+          <button class="btn btn-follow">Follow</button>
+        </div>
+        </li>
+  <li class="tweet-card">
+<div class="tweet-content">
+  <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJzfC4vdKpz5mWPyFr1xsa4ft1F6PiZYWGIf1g=s100-c-k-c0xffffffff-no-rj-mo" alt="Jonathan's Profile">
+  <div class="tweet-header">
+    <span class="fullname">
+  <strong>Jonathan Morrison</strong>
+</span>
+    <span class="username">@tldtoday</span>
+  </div>
+<button class="btn btn-follow">Follow</button>
+</div>
+</li> 
+<li class="tweet-card">
+  <div class="tweet-content">
+    <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJxY8yvKiV5vw9PinWcX7e49u9iy90NITzJvGg=s100-c-k-c0xffffffff-no-rj-mo" alt="ZHC's Profile">
+    <div class="tweet-header">
+      <span class="fullname">
+    <strong>ZHC </strong>
+  </span>
+      <span class="username">@zhcyt</span>
+    </div>
+  <button class="btn btn-follow">Follow</button>
+  </div>
+  </li> 
+  <li class="tweet-card">
+    <div class="tweet-content">
+      <img class="tweet-card-avatar" src="https://yt3.ggpht.com/a/AATXAJx9YErte8HcbIgQCWb0Psz_AYBvDNr8qXxgdw=s100-c-k-c0xffffffff-no-rj-mo" alt="Leo's Profile">
+      <div class="tweet-header">
+        <span class="fullname">
+      <strong>Leo Mahalo</strong>
+    </span>
+        <span class="username">@leomahaloyt</span>
+      </div>
+      <button class="btn btn-follow">Follow</button>
+    </div>
+    </li> 
+    <li class="tweet-card">
+      <div class="tweet-content">
+        <img class="tweet-card-avatar" src="https://pbs.twimg.com/profile_images/1119542976663912448/LnHqSlXT_400x400.png" alt="Haribo's Profile">
+        <div class="tweet-header">
+          <span class="fullname">
+        <strong>Haribo UK</strong>
+      </span>
+          <span class="username">@OfficialHARIBO</span>
+        </div>
+        <button class="btn btn-follow">Follow</button>
+      </div>
+      </li> 
+      <li class="tweet-card">
+        <div class="tweet-content">
+          <img class="tweet-card-avatar" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042018/untitled-1_25.png?.dBmnWWgbhwgmBX.b4fSCNCS4XTxZdIy&itok=UgIWpYUK" alt="Fuller's Profile">
+          <div class="tweet-header">
+            <span class="fullname">
+          <strong>Fuller House</strong>
+        </span>
+            <span class="username">@FullerHouseOfficial</span>
+          </div>
+          <button class="btn btn-follow">Follow</button>
+        </div>
+        </li> 
+        <li class="tweet-card">
+          <div class="tweet-content">
+            <img class="tweet-card-avatar" src="https://www.inquisitr.com/wp-content/uploads/2020/05/Candace-Cameron-Bure-2-200x200.jpg" alt="DJ's Profile">
+            <div class="tweet-header">
+              <span class="fullname">
+            <strong>DJ Tanner</strong>
+          </span>
+              <span class="username">@DonnaJoTFuller</span>
+            </div>
+            <button class="btn btn-follow">Follow</button>
+          </div>
+          </li> 
+          <li class="tweet-card">
+            <div class="tweet-content">
+              <img class="tweet-card-avatar" src="https://www.sitcomsonline.com/photopost/data/2301/Sweetin-J.jpg" alt="Steph's Profile">
+              <div class="tweet-header">
+                <span class="fullname">
+              <strong>Stephanie Tanner</strong>
+            </span>
+                <span class="username">@StephanieTanner</span>
+              </div>
+              <button class="btn btn-follow">Follow</button>
+            </div>
+            </li> 
+            <li class="tweet-card">
+              <div class="tweet-content">
+                <img class="tweet-card-avatar" src="https://vignette.wikia.nocookie.net/fullhouse/images/d/d8/Kimmy-gibbler-3.jpg/revision/latest/window-crop/width/200/x-offset/0/y-offset/0/window-width/300/window-height/300?cb=20190814014307" alt="Steph's Profile">
+                <div class="tweet-header">
+                  <span class="fullname">
+                <strong>Kimmy Gibbler</strong>
+              </span>
+                  <span class="username">@KimmyGibbler</span>
+                </div>
+                <button class="btn btn-follow">Follow</button>
+              </div>
+              </li> 
+            </ol>
+            <!--END: Follow list -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+  <div class="footer">
+    <center>
+  <a href="" class="footer">About&nbsp;Help&nbsp;Blog&nbsp;Jobs&nbsp;Terms&nbsp;Privacy&nbsp;Advertisers&nbsp;Bussinesses&nbsp;Media&nbsp;Devlopers&nbsp;Resources&nbsp;&copy;&nbsp;Alvin C, 2020</a>
+</center>
+  </div>
+  </footer>
+  <script src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+  
+</body>
+</html> 
